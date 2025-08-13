@@ -7,7 +7,7 @@ const car = {
   brand: "Toyota",
   model: "Corolla",
   year: 2022,
-  color: "white",
+  color: "Red",
   isElectric: false,
 };
 console.log(car);
@@ -40,12 +40,12 @@ console.log(car);
 course["faculty"] = "Shampa";
 console.log(course);
 
-//How to get the properties only with funtion - object.keys()
+//How to get the properties only with function - object.keys()
 
 const prop = Object.keys(car);
 console.log(prop);
 
-//How to get the values only with funtion - object.values()
+//How to get the values only with function - object.values()
 
 const value = Object.values(course);
 console.log(value);
