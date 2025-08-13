@@ -23,3 +23,29 @@ const course = {
   },
 };
 console.log(course);
+
+//Dot and Third bracket notation to access(get) and update(set) properties
+
+// Accessing With Dot
+console.log(car.color);
+console.log(course.faculty);
+//Accessing With Third Bracket
+console.log(car["color"]);
+console.log(course["faculty"]);
+
+//Updating the values of properties
+car.color = "red";
+console.log(car);
+
+course["faculty"] = "Shampa";
+console.log(course);
+
+//How to get the properties only with funtion - object.keys()
+
+const prop = Object.keys(car);
+console.log(prop);
+
+//How to get the values only with funtion - object.values()
+
+const value = Object.values(course);
+console.log(value);
