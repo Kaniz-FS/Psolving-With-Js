@@ -34,7 +34,7 @@ console.log(car["color"]);
 console.log(course["faculty"]);
 
 //Updating the values of properties
-car.color = "red";
+car.color = "Black";
 console.log(car);
 
 course["faculty"] = "Shampa";
